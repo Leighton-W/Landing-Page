@@ -14,9 +14,18 @@ body{
     height: 72px;
 }
 
+.header{
+    justify-content: space-between;
+}
+
 .logo{
     color: #f9faf8;
     font-size: 24px;
+    align-self: center;
+}
+
+.side-links{
+    align-self: center;
 }
 
 .link{
