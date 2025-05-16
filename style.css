@@ -1,7 +1,12 @@
-.header, .footer, .content{
+body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0px;
+}
+
+.header, .footer, .content{
+    display: flex;
+    padding: 0px 32px;
 }
 
 .header, .footer{
