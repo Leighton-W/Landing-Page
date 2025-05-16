@@ -6,7 +6,12 @@
 
 .header, .footer{
     background: #1f2937;
-    height: 300px;
+    height: 72px;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .content{
