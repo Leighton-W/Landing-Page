@@ -28,9 +28,14 @@ body{
     align-self: center;
 }
 
-.link{
+a{
     color: #e5e7eb;
     font-size: 18px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .content{
