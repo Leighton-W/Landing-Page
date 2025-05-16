@@ -1,0 +1,14 @@
+.header, .footer, .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer{
+    background: #1f2937;
+    height: 300px;
+}
+
+.content{
+    height: 600px;
+}
