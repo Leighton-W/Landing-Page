@@ -19,6 +19,11 @@ body{
     font-size: 24px;
 }
 
+.link{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .content{
     height: 600px;
 }
