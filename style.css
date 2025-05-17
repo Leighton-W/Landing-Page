@@ -17,6 +17,10 @@ body{
     flex-grow: 1;
 }
 
+.container1{
+    background: #1f2937;
+}
+
 .header, .footer{
     background: #1f2937;
     height: 72px;
