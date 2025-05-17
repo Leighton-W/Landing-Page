@@ -9,6 +9,14 @@ body{
     padding: 0px 32px;
 }
 
+.content{
+    flex-direction: column;
+}
+
+.container1, .container2, .container3, .container4{
+    flex-grow: 1;
+}
+
 .header, .footer{
     background: #1f2937;
     height: 72px;
