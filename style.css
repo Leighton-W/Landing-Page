@@ -16,12 +16,23 @@ body{
 
 .header{
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
     color: #f9faf8;
     font-size: 24px;
-    align-self: center;
+    
+}
+
+.copyright{
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .side-links{
@@ -39,7 +50,6 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     gap: 16px;
 }
 
