@@ -11,6 +11,7 @@ body{
 
 .content{
     flex-direction: column;
+    padding: 0;
 }
 
 .container1, .container2, .container3, .container4{
