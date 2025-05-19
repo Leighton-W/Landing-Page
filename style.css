@@ -15,11 +15,26 @@ body{
 }
 
 .container1, .container2, .container3, .container4{
+    display: flex;
     flex-grow: 1;
 }
 
+
 .container1{
     background: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text, .right-image{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.right-image{
+    background: #e5e7eb;
 }
 
 .header, .footer{
