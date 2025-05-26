@@ -1,17 +1,32 @@
+/*General setup*/
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
 
-.header, .footer, .content{
+.header, .footer{
     display: flex;
+    align-items: center;
     padding: 0px 32px;
+    background: #1f2937;
+    height: 72px;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .content{
+    display: flex;
     flex-direction: column;
     padding: 0;
+    height: 600px;
 }
 
 .container1, .container2, .container3, .container4{
@@ -20,22 +35,53 @@ body{
 }
 
 
+/*Header*/
+
+.side-links{
+    display: flex;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Footer*/
+
+.copyright{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*Section 1*/
+
 .container1{
     background: #1f2937;
     justify-content: center;
     align-items: center;
 }
 
-.left-text, .right-image{
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-self: stretch;
-}
-
 .left-text{
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
     gap: 12px;
     max-width: 400px;
 }
@@ -65,60 +111,13 @@ body{
 }
 
 .right-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     background: #e5e7eb;
-    margin: 16px 32px;
+    margin: 0px 32px;
     width: 300px;
     height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 18px;
-}
-
-.header, .footer{
-    background: #1f2937;
-    height: 72px;
-}
-
-.header{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer{
-    justify-content: center;
-    align-items: center;
-}
-
-.logo{
-    color: #f9faf8;
-    font-size: 24px;
-    
-}
-
-.copyright{
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-.side-links{
-    display: flex;
-}
-
-
-a{
-    color: #e5e7eb;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 16px;
-}
-
-.content{
-    height: 600px;
 }
