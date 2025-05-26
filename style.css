@@ -36,17 +36,43 @@ body{
 .left-text{
     flex-direction: column;
     align-items: center;
+    gap: 12px;
+    max-width: 400px;
 }
 
-.left-text-title{
+.left-text h1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
+}
+
+.left-text p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+.left-text button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
 }
 
 .right-image{
     background: #e5e7eb;
     margin: 16px 32px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
 .header, .footer{
