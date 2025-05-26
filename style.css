@@ -33,6 +33,17 @@ body{
     align-self: stretch;
 }
 
+.left-text{
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-text-title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
 .right-image{
     background: #e5e7eb;
     margin: 16px 32px;
