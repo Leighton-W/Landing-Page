@@ -177,3 +177,37 @@ ul{
     border: 2px solid #3882f6;
     border-radius: 12px;
   }
+
+  /*Section 3*/
+
+  .container3 {
+    background: #e5e7eb;
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+  
+  .quote-box {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f2937;
+    margin: 0;
+  }
