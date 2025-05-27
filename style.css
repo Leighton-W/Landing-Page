@@ -129,3 +129,51 @@ ul{
     max-width: 50%;
     font-size: 18px;
 }
+
+/*Section 2*/
+
+.container2 {
+    background: white;
+    padding: 64px 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .info-section h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .info-boxes {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    gap: 8px;
+  }
+  
+  .info-icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+  }
